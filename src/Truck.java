@@ -6,13 +6,11 @@ public class Truck extends Auto {
 
     @Override
     void drive() {
-        super.drive();
         System.out.println("Нас ждёт бездорожье!");
     }
 
     @Override
     void transport() {
-        super.transport();
         System.out.println("В кузове места много!");
     }
 }
